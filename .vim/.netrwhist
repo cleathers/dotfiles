@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/charles.leathers/source/dashboard/views/talent/settings'
+let g:netrw_dirhist_2='/Users/charles.leathers/source/cpma-tax-and-payment/tasks/register'
+let g:netrw_dirhist_3='/Users/charles.leathers/source/dashboard/locales_missing_translations'
+let g:netrw_dirhist_4='/Users/charles.leathers/.aws'
