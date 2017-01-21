@@ -1,0 +1,7 @@
+pane	0	0	:..rkspace/uclax	1	:*	0	:/Users/charlieleathers/Workspace/uclax	0	zsh	:
+pane	0	0	:..rkspace/uclax	1	:*	1	:/Users/charlieleathers/Workspace/uclax	1	zsh	:
+pane	2	0	:.._from_scratch	1	:*	0	:/Users/charlieleathers/Workspace/books/data_science_from_scratch	0	zsh	:
+pane	2	0	:.._from_scratch	1	:*	1	:/Users/charlieleathers/Workspace/books/data_science_from_scratch	1	zsh	:
+window	0	0	1	:*	c0db,204x48,0,0[204x24,0,0,0,204x23,0,25,1]
+window	2	0	1	:*	40e3,204x48,0,0[204x24,0,0,3,204x23,0,25,4]
+state	2	

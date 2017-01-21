@@ -1,12 +1,17 @@
+" Pathogen load
+filetype off
+
 call pathogen#infect()
+call pathogen#helptags()
 
 
 set background=light
 " solarized options
 let g:solarized_termtrans = 1
 
-syntax on
 filetype plugin indent on
+syntax on
+
 if !exists('g:vim_json_syntax_conceal')
 	let g:vim_json_syntax_conceal = 1 " option to get vim-json working
 endif
@@ -14,6 +19,7 @@ endif
 colorscheme solarized
 
 set laststatus=2
+set relativenumber
 set number
 set tabstop=2
 set shiftwidth=2
@@ -74,17 +80,24 @@ if !exists('g:airline_symbols')
 endif
 
 let g:airline_powerline_fonts=1
-let g:airline_left_sep = '|'
-let g:airline_left_sep = '|'
-let g:airline_right_sep = '|'
-let g:airline_right_sep = '|'
-let g:airline_symbols.crypt = '|'
-let g:airline_symbols.linenr = '|'
-let g:airline_symbols.linenr = '|'
-let g:airline_symbols.linenr = '|'
-let g:airline_symbols.branch = '|'
-let g:airline_symbols.paste = '|'
-let g:airline_symbols.paste = '|'
-let g:airline_symbols.paste = '|'
-let g:airline_symbols.whitespace = '|'
+" let g:airline_left_sep = '|'
+" let g:airline_left_sep = '|'
+" let g:airline_right_sep = '|'
+" let g:airline_right_sep = '|'
+" let g:airline_symbols.crypt = '|'
+" let g:airline_symbols.linenr = '|'
+" let g:airline_symbols.linenr = '|'
+" let g:airline_symbols.linenr = '|'
+" let g:airline_symbols.branch = '|'
+" let g:airline_symbols.paste = '|'
+" let g:airline_symbols.paste = '|'
+" let g:airline_symbols.paste = '|'
+" let g:airline_symbols.whitespace = '|'
 
+" Pymode-settings
+let g:pymode = 1
+let g:pymode_folding = 1
+let g:pymode_lint = 1
+let g:pymode_lint_unmodified = 0
+" W503: ignore binary operator at end of line lint rule
+let g:pymode_lint_ignore = "W503,E402"

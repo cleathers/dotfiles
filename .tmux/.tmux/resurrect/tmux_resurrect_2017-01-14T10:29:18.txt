@@ -1,0 +1,8 @@
+pane	0	0	:..ce/uclax/temp	1	:*	0	:/Users/charlieleathers/Workspace/uclax/temp	0	zsh	:
+pane	0	0	:..ce/uclax/temp	1	:*	1	:/Users/charlieleathers/Workspace/uclax/temp	1	zsh	:
+pane	0	0	:..ce/uclax/temp	1	:*	2	:/Users/charlieleathers/Workspace/uclax	0	git	:/Applications/Xcode.app/Contents/Developer/usr/bin/git clone git@github.com:coding-boot-camp/FullStack-Lesson-Plans.git
+pane	2	0	:v	1	:*Z	0	:/Users/charlieleathers/Workspace/books/data_science_from_scratch	1	vim	:vim c4.linear_algebra.py
+pane	2	0	:v	1	:*Z	1	:/Users/charlieleathers/Workspace/books/data_science_from_scratch	0	zsh	:
+window	0	0	1	:*	360c,101x48,0,0[101x19,0,0,1,101x19,0,20,5,101x8,0,40,2]
+window	2	0	1	:*Z	d53a,101x48,0,0[101x24,0,0,3,101x23,0,25,4]
+state	0	2
